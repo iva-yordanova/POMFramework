@@ -19,11 +19,26 @@ public class HomePage extends BasePage {
     @FindBy(xpath="//*[contains(@class,'sign-out')]")
     WebElement logOutButton;
 
+    @FindBy(id="nav-link-profile")
+    WebElement profileButton;
+
     //Interaction Methods
 
     //Assertion Methods - boolean, string
     public boolean isNewPostButtonDisplayed(){
         return newPostButton.isDisplayed();
+    }
+
+    public void clickNewPostButton(){
+        newPostButton.click();
+    }
+
+    public void clickLogOut(){
+        logOutButton.click();
+    }
+
+    public void clickProfileButton(){
+        profileButton.click();
     }
 
 

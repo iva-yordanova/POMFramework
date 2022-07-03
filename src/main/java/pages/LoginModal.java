@@ -14,6 +14,7 @@ public class LoginModal extends BasePage{
     By signInButton= By.id("sign-in-button");
     By registerButton= By.linkText("Register");
 
+
     public void enterUsername(String username) {
         driver.findElement(usernameOrEmailField).clear();
         driver.findElement(usernameOrEmailField).sendKeys(username);
@@ -36,6 +37,7 @@ public class LoginModal extends BasePage{
     }
 
     public void clickRegisterButton() {
+
         driver.findElement(registerButton).click();
     }
 }

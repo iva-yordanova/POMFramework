@@ -26,5 +26,6 @@ public class LandingPage extends BasePage{
         loginButton.click();
     }
 
-    //read for BasePage!! each page to extend BasePage
+
+
 }
