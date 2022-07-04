@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-04T09:33:14 EEST" name="Suite1" finished-at="2022-07-04T09:36:37 EEST" duration-ms="202883">
+    <groups>
+      <group name="LikePost">
+        <method signature="SmokeTests.likePrivatePost()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" name="likePrivatePost" class="pomscripts.SmokeTests"/>
+      </group> <!-- LikePost -->
+    </groups>
+    <test started-at="2022-07-04T09:33:14 EEST" name="SmokeTests" finished-at="2022-07-04T09:36:37 EEST" duration-ms="202883">
+      <class name="pomscripts.SmokeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:33:14 EEST" name="setUp" finished-at="2022-07-04T09:33:37 EEST" duration-ms="22852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addNewComment()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:33:37 EEST" name="addNewComment" finished-at="2022-07-04T09:33:40 EEST" duration-ms="3923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewComment -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:33:40 EEST" name="tearDown" finished-at="2022-07-04T09:33:41 EEST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewComment status=SUCCESS method=SmokeTests.addNewComment()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:33:41 EEST" name="setUp" finished-at="2022-07-04T09:34:02 EEST" duration-ms="21407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createAccount()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:34:02 EEST" name="createAccount" finished-at="2022-07-04T09:34:06 EEST" duration-ms="3576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:34:06 EEST" name="tearDown" finished-at="2022-07-04T09:34:06 EEST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccount status=SUCCESS method=SmokeTests.createAccount()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:34:06 EEST" name="setUp" finished-at="2022-07-04T09:34:27 EEST" duration-ms="21354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deletePost()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:34:27 EEST" name="deletePost" finished-at="2022-07-04T09:34:31 EEST" duration-ms="3700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:34:31 EEST" name="tearDown" finished-at="2022-07-04T09:34:31 EEST" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deletePost status=SUCCESS method=SmokeTests.deletePost()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:34:31 EEST" name="setUp" finished-at="2022-07-04T09:34:53 EEST" duration-ms="21174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="editProfileInfo()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:34:53 EEST" name="editProfileInfo" finished-at="2022-07-04T09:34:57 EEST" duration-ms="4353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProfileInfo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:34:57 EEST" name="tearDown" finished-at="2022-07-04T09:34:57 EEST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editProfileInfo status=SUCCESS method=SmokeTests.editProfileInfo()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:34:57 EEST" name="setUp" finished-at="2022-07-04T09:35:19 EEST" duration-ms="21194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="likePrivatePost()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:35:19 EEST" name="likePrivatePost" finished-at="2022-07-04T09:35:22 EEST" duration-ms="3509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- likePrivatePost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:35:22 EEST" name="tearDown" finished-at="2022-07-04T09:35:22 EEST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=likePrivatePost status=SUCCESS method=SmokeTests.likePrivatePost()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:35:22 EEST" name="setUp" finished-at="2022-07-04T09:35:44 EEST" duration-ms="21291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:35:44 EEST" name="loginTest" finished-at="2022-07-04T09:35:46 EEST" duration-ms="2762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:35:46 EEST" name="tearDown" finished-at="2022-07-04T09:35:47 EEST" duration-ms="250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=SmokeTests.loginTest()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:35:47 EEST" name="setUp" finished-at="2022-07-04T09:36:08 EEST" duration-ms="21341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutTest()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:36:08 EEST" name="logoutTest" finished-at="2022-07-04T09:36:11 EEST" duration-ms="2897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:36:11 EEST" name="tearDown" finished-at="2022-07-04T09:36:11 EEST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutTest status=SUCCESS method=SmokeTests.logoutTest()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:36:11 EEST" name="setUp" finished-at="2022-07-04T09:36:33 EEST" duration-ms="21538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="undoLikedPost()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:36:33 EEST" name="undoLikedPost" depends-on-groups="LikePost" finished-at="2022-07-04T09:36:36 EEST" duration-ms="3632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- undoLikedPost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:pomscripts.SmokeTests@7e19ebf0]" started-at="2022-07-04T09:36:36 EEST" name="tearDown" finished-at="2022-07-04T09:36:37 EEST" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=undoLikedPost status=SUCCESS method=SmokeTests.undoLikedPost()[pri:0, instance:pomscripts.SmokeTests@7e19ebf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pomscripts.SmokeTests -->
+    </test> <!-- SmokeTests -->
+  </suite> <!-- Suite1 -->
+</testng-results>
