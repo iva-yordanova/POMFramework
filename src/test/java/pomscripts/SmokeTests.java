@@ -47,7 +47,7 @@ public class SmokeTests extends BaseTest {
     }*/
 
 
-    @Test
+    @Test (groups="LikePost")
     public void likePrivatePost() {
         loginTest();
         homePage.clickProfileButton();
@@ -57,7 +57,7 @@ public class SmokeTests extends BaseTest {
         Assert.assertTrue(postModal.isPostLiked());
     }
 
-    @Test
+    @Test (dependsOnGroups ="LikePost" )
     public void undoLikedPost() {
         loginTest();
         homePage.clickProfileButton();
